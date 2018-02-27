@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="dataTextViewPadding">8dp</dimen>
+    <dimen name="TextSizeOfLabels">15sp</dimen>
+    <dimen name="LeftRight_TextViewPadding">16dp</dimen>
+    <dimen name="Bottom_TextViewPadding">24dp</dimen>
+    <dimen name="Top_TextViewPadding">24dp</dimen>
+</resources>

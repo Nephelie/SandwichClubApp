@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="HorizontalLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="LabelTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">@dimen/LeftRight_TextViewPadding</item>
+        <item name="android:paddingLeft">@dimen/LeftRight_TextViewPadding</item>
+        <item name="android:paddingBottom">@dimen/Bottom_TextViewPadding</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/colorOfTheLabels</item>
+        <item name="android:textSize">@dimen/TextSizeOfLabels</item>
+    </style>
+
+    <style name="TextViewData">
+        <item name="android:padding">@dimen/dataTextViewPadding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>
